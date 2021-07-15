@@ -1,4 +1,4 @@
-
+console.log('Made by Hussein')
 
 var name = prompt("what is your name")
 
