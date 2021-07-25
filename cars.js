@@ -4,6 +4,9 @@ var name = prompt("what is your name")
 
 alert("wlecome to my car website " + name )
 
+
+
+function user(){
 var favCar = prompt("what is you fav car?")
 
 while(favCar != "ford" && favCar != "kia" && favCar != "range rover"){
@@ -43,3 +46,16 @@ document.write(
 else{
   alert('Sorry we dont have this car')
 }
+
+}
+
+function rate(){
+  alert("please " + name + " rate my website." )
+  var stars = prompt("how many start from 10 you give this website?")
+  alert("thanks for the " + stars + " starts")
+
+}
+
+
+user()
+rate()
